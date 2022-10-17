@@ -1,6 +1,6 @@
 <?php
 
-echo "AHA";
+echo "AHA" . "<br />";
 
 $var = 90;
 
