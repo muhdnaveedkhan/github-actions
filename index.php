@@ -1,6 +1,9 @@
 <?php
 
-echo "AHA" . "<br />";
+include "header.php";
+
+
+echo "<br / >AHA" . "<br />";
 
 $var = 90;
 
@@ -14,3 +17,6 @@ echo $str . "<br />";
 $sub_str = substr($str, 1, 4); 
 
 echo $sub_str . "<br />";
+
+echo "<hr/> <center> ";
+include "footer.php";
